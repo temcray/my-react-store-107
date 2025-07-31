@@ -32,6 +32,7 @@
 .navbar-menu {
   display: flex;
   align-items: center;
+  text-align: left;
 
 }
 
@@ -149,7 +150,7 @@ MAIN CONTENT STYLES
   /* Features Section */
   .features-section {
     padding: 4rem 1rem;
-    background-color: white;
+    background-color: rgb(232, 226, 226);
   }
 
   .features-section h2 {
