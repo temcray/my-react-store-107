@@ -1,6 +1,6 @@
 
-import './App.css'
 
+import './App.css'
 import Footer from './component/Footer'
 import Header from './component/Navbar'
 import Catalog from './pages/Catalog'
