@@ -1,5 +1,6 @@
 //impots
 
+
 function Navbar() {
   return (
     <nav className="navbar">
@@ -23,8 +24,12 @@ function Navbar() {
             </li>
           </ul>
         </div>
+        <button aria-label="Cart">
+          
+        </button>
       </div>
     </nav>
+
   );
 }
 

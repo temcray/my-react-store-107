@@ -1,3 +1,6 @@
+//import
+
+
 function ProductCard({ title, price, image, description }) {
 return (
 <div className="product-card">
