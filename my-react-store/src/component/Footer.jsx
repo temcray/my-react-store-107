@@ -8,7 +8,7 @@ function Footer() {
                         <p>Your trusted partner for quality products and excellent service.</p>
                     </div>
 
-                    <div className="footer-setion">
+                    <div className="footer-section">
                         <h4>Quick Links</h4>
                         <ul className="footer-Links">
                             <li><a href="#privacy">Privacy Policy</a></li>
