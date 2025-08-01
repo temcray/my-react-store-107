@@ -1,6 +1,6 @@
 //import
-import Navbar from './components/Navbar';
-import Footer from './components/Footer';
+
+
 import './App.css';
 
 
@@ -29,8 +29,8 @@ function App() {
             </div>
             <div className="feature-card">
               <div className="feature-icon">🔒</div>
-             <h3>Secure Payment</h3>
-             <p>Your payment information is safe with us</p>
+              <h3>Secure Payment</h3>
+              <p>Your payment information is safe with us</p>
             </div>
             <div className="feature-card">
               <div className="feature-icon">↩</div>
@@ -46,8 +46,8 @@ function App() {
         </div>
       </main>
     </div>
-   );
-  }
+  );
+}
 
 //export 
 export default App;

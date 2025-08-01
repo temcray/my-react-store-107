@@ -14,7 +14,7 @@ function App() {
   return (
     <>
       <Header></Header>
-      <App />
+            <App />
       <Catalog />
       <Footer></Footer>
       
