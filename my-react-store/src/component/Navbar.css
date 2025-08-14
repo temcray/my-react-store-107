@@ -1,0 +1,23 @@
+.header {
+  
+  border-bottom: 1px solid rgb(36, 136, 152);
+}
+
+.header .menu {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  margin-bottom: 0;
+}
+
+.hearder  .menu-item {
+  padding: 5px 10px;
+  background-color: rgb(9, 100, 139);
+  margin-right: 10px;
+  border-radius: 4px;
+}
+
+.header .header-actions {
+  display: flex;
+  align-items: center;
+}

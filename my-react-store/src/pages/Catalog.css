@@ -1,0 +1,12 @@
+.catalog h2 {
+  color: red;
+
+}
+
+.catalog p{
+  font-weight: bold;
+}
+
+.catalog .list {
+  display: flex;
+}

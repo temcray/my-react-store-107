@@ -1,0 +1,14 @@
+.home {
+  background-color: rgb(166, 237, 237);
+  padding: 20px;
+}
+
+.home h1 {
+  color: red;
+}
+
+.home .section-2 {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
