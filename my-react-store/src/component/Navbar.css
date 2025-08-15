@@ -1,6 +1,7 @@
 .header {
   
-  border-bottom: 1px solid rgb(36, 136, 152);
+  border-bottom: 1px solid rgb(219, 25, 7);
+  
 }
 
 .header .menu {
@@ -12,12 +13,31 @@
 
 .hearder  .menu-item {
   padding: 5px 10px;
-  background-color: rgb(9, 100, 139);
   margin-right: 10px;
   border-radius: 4px;
+  
 }
 
 .header .header-actions {
   display: flex;
   align-items: center;
+  background-color: white;
+  
+  
+  
+}
+
+.menu {
+  background-color: rgb(26, 64, 78);
+  color: red;
+  align-items: center;
+  
+}
+
+ul .menu {
+  flex-direction: row ;
+}
+
+.header-container {
+  background-color: white;
 }

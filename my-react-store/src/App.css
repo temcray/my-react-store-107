@@ -409,13 +409,13 @@ transition: all 0.3s ease;
 margin: 0.25rem;
 }
 .btn-primary {
-background-color: #007bff;
+background-color: #428edf;
 color: white;
 }
 .btn-primary:hover {
-background-color: #0056b3;
+background-color: #3e8ee4;
 transform: translateY(-2px);
-box-shadow: 0 4px 8px rgba(0, 123, 255, 0.3);
+box-shadow: 0 4px 8px rgba(121, 168, 219, 0.3);
 }
 .btn-secondary {
 background-color: #6c757d;
