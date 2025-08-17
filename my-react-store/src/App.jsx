@@ -2,7 +2,7 @@ import "./App.css";
 import Cart from "./pages/Cart";
 import Home from "./pages/Home";
 import Contact from "./pages/Contact";
-
+import Admin from "./pages/Admin";
 import Header from "./component/Header";
 import About from "./pages/About";
 import Catalog from "./pages/Catalog";
@@ -21,6 +21,7 @@ function App() {
         <Route path="/about" element={<About />}></Route>
         <Route path="/cart" element={<Cart />}></Route>
         <Route path="/contact" element={<Contact />}></Route>
+        <Route path="/admin" element={<Admin />}></Route>
       </Routes>
 
       <Footer />

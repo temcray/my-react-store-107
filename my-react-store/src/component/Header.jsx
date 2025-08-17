@@ -33,6 +33,11 @@ function Header() {
                 Contact US
               </Link>
             </li>
+            <li className="menu-item">
+              <Link to="/Admin" className="nav-link">
+                Admin page
+              </Link>
+            </li>
           </ul>
 
           {/* <div className="search-bar">
