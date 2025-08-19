@@ -2,12 +2,16 @@ import "./Admin.css";
 import { useState } from "react";
 
 function Admin() {
+  const [couponsList, setCouponsList] = useState([]);
   const [coupon, setCoupon] = useState({
     code: "",
     discount: "",
   });
   function save() {
     console.log(coupon);
+    let copy = [...couponsList];
+    copy.push(coupon);
+    setCouponsList(copy);
   }
 
   function handleEvent(e) {
@@ -29,7 +33,7 @@ function Admin() {
     }
     setCoupon(copy);
   }
-
+  const [productList, setProductsList] = useState([]);
   const [product, setProduct] = useState({
     title: "",
     price: "",
@@ -38,6 +42,9 @@ function Admin() {
 
   function saveProduct() {
     console.log(product);
+    let copy = [...productsList];
+    copy.push(product);
+    setProduct(copy);
   }
 
   function handleProductEvent(e) {
@@ -93,6 +100,16 @@ function Admin() {
             <button className="btn btn-sm btn-primary" onClick={saveProduct}>
               Save
             </button>
+            <div>
+              <h4>Your product</h4>
+              <ul>
+                {productList.map((prod) => (
+                  <li key={prod.code}>
+                    {prod.title} - ${prod.price}
+                  </li>
+                ))}
+              </ul>
+            </div>
           </section>
           <section>
             {/*Dicounts Section*/}
@@ -120,6 +137,17 @@ function Admin() {
               <button className="btn btn-sm btn-primary" onClick={save}>
                 Save
               </button>
+            </div>
+
+            <div>
+              <h4>Your save discounts</h4>
+              <ul>
+                {couponsList.map((cp) => (
+                  <li key={cp.code}>
+                    {cp.code} - ${cp.discount}{" "}
+                  </li>
+                ))}
+              </ul>
             </div>
           </section>
         </div>

@@ -1,10 +1,12 @@
 .product {
   margin-right: 12px;
   margin-bottom: 12px;
+display: inline-block;
 }
 
 .catalog {
   align-items: center;
+
 }
 
 .list {
@@ -14,3 +16,4 @@
   list-style: none;
   width: fit-content;
 }
+
